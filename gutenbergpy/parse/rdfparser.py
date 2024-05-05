@@ -38,7 +38,7 @@ class RdfParser:
         total = len(dirs)
 
         for idx, dir in enumerate(dirs):
-            if idx == 14419:
+            if (dir == "test"): 
                 continue
             processing_str = "Processing progress: %d / %d" % (idx,total)
             Utils.update_progress_bar(processing_str,idx,total)

@@ -26,7 +26,7 @@ pip install gutenbergpy
 or just install it from source (it's all just python code):
 
 ```
-git clone https://github.com/raduangelescu/gutenbergpy
+git clone https://github.com/AlistairKeiller/gutenbergpy
 python setup.py install
 ```
 
